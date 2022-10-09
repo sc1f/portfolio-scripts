@@ -85,5 +85,5 @@ func getObjectCount(ctx context.Context, client *s3.Client, bucket string) (int,
 		numObjects := len(page.Contents)
 		count += numObjects
 	}
-	return count, nil
+	return count - 1, nil
 }

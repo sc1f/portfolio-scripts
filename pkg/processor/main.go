@@ -15,7 +15,7 @@ import (
 )
 
 const (
-	LONG_EDGE             = 2560
+	LONG_EDGE             = 1920
 	BUCKET                = "juntan-portfolio-images"
 	S3_REGION             = "us-east-1"
 	PROCESSED_FOLDER_NAME = "processed"

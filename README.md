@@ -1,3 +1,3 @@
-### portfolio
+### portfolio-scripts
 
-golang scripts
+golang scripts for batch rename, resize, upload of images
